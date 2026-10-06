@@ -13,6 +13,8 @@ This connector reads public earthquake event data from the USGS FDSN Event Web
 Service. It needs no API key or other credentials. The steps below build the
 connector and framework wheels, create a `COMMUNITY` connection, and create a
 pipeline that writes the `earthquakes` source table to a streaming table.
+This follows the repository's connector package workflow: package the source
+separately and deploy it with the shared framework.
 
 ### Prerequisites
 
