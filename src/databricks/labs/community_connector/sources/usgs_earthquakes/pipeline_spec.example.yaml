@@ -1,0 +1,6 @@
+connection_name: "<CONNECTION_NAME>"
+objects:
+  - table:
+      source_table: earthquakes
+      table_configuration:
+        lookback_days: "1"
